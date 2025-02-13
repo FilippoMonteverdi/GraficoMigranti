@@ -41,9 +41,9 @@ function creaTab(contenuto){
         ctx.lineTo(45,795-(s*i)/caccaro);
         ctx.stroke();
     }
-    var space = (1880-38)/conte.length;
+    var space = (1880-40)/conte.length;
     for (var i = 1; i < conte.length; i++){
-        ctx.fillText(1996+i,38+space*i,815);
+        ctx.fillText(1996+i,40+space*i,815);
         ctx.moveTo(50+space*i,800);
         ctx.lineTo(50+space*i,805);
         ctx.stroke();
